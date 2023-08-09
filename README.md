@@ -215,13 +215,15 @@ __1. <ins>Backend</ins>: (Data Processing and Business Logic)__
 __2. <ins>APIs, Frameworks, and Libraries</ins>:__
 
 1. libcurl: A versatile library for HTTP communication, vital for sending requests to the Investopedia trading game API.
-2. RapidJSON: A fast JSON parser and generator for C++, pivotal for parsing API responses.
-3. Boost: Utilize Boost libraries for various utilities and enhancements.
-4. Catch2: A C++ unit testing framework for robust testing.
+2. WebSocket++: A C++ library for WebSocket communication, facilitating real-time data streaming and interactivity.
+3. RapidJSON: A fast JSON parser and generator for C++, pivotal for parsing API responses.
+4. Boost: Utilize Boost libraries for various utilities and enhancements.
+5. Catch2: A C++ unit testing framework for robust testing.
    
 __3. <ins>Web APIs and HTTP Communication</ins>:__
 
 - Utilize libcurl to establish communication with the Investopedia API endpoints.
+- Incorporate WebSocket++ to establish WebSocket connections for real-time data streaming and interactivity.
 - Craft HTTP GET/POST requests with appropriate headers and parameters to interact with the API.
 - Leverage libcurl's features for efficient data transmission and response handling.
 
@@ -233,10 +235,10 @@ __3. <ins>Web APIs and HTTP Communication</ins>:__
 **5. <ins>Testing, Mocking, and Quality Assurance</ins>:**
 - Employ the Catch2 testing framework for unit testing and regression testing.
 - Design unit tests to validate individual functions and components of the library.
-- Consider implementing mocks or fakes for API responses during testing to simulate various scenarios.
-
+- Consider implementing mocks or fakes for API responses and WebSocket data during testing to simulate different scenarios.
+  
 __6. <ins>Logging and Documentation</ins>:__
-- Integrate a logging library (such as Boost.Log) to record library interactions, requests, and responses.
+- Integrate a logging library (e.g., Boost.Log) to record library interactions, requests, responses, and WebSocket data.
 - Document code comprehensively using inline comments to explain complex functions and processes.
 - Create an extensive documentation guide, covering library installation, usage, troubleshooting, and contributing guidelines.
 - Provide sample code snippets and practical examples to guide developers through different aspects of the library.
