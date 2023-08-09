@@ -29,11 +29,11 @@ Consider providing sample applications or tutorials that showcase the library's 
 Provide code examples and document the library's API.
 Consider writing technical documentation or blog posts to showcase your library and explain its benefits and usage.
 
-<a name="yt"></a>
+<a name="graph"></a>
 
-<h1 align="center">ytconv3rt3r</h1>
+<h1 align="center">graphQLOL</h1>
 
-<h4 align="center"><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4>
+<h4 align="center"><ins><strong><em>* a library for sending graphQL queries and handling responses &mdash; packaged as a easy-to-use GUI * </em></strong></ins></h4>
 
 **<ins>TO-DO</ins>:**
 - [ ] Incorporate CLI installation/usage
