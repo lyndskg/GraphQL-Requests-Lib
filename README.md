@@ -33,11 +33,10 @@ Consider writing technical documentation or blog posts to showcase your library 
 
 <h1 align="center">graphQLOL</h1>
 
-<h4 align="center"><ins><strong><em>* a library for sending graphQL queries and handling responses &mdash; packaged as a easy-to-use GUI * </em></strong></ins></h4>
+<h4 align="center"><ins><strong><em>* a library for sending GraphQL queries and handling responses &mdash; packaged as a easy-to-use gui * </em></strong></ins></h4>
 
 **<ins>TO-DO</ins>:**
-- [ ] Incorporate CLI installation/usage
-- [ ] Incorporate Brew installion
+- [ ] To doooo
 
 <p align="center">
   <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a>  |  <a href="https://www.sorry-this-site-doesnt-exist-yet./">Website</a>  |     <a href="https://github.com/lyndskg/">GitHub</a>  |  <a href="#contact">Contact Info</a>
