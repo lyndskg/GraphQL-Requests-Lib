@@ -1,5 +1,3 @@
-# GraphQL-Requests-Lib
-
 <a name="graph"></a>
 
 <h1 align="center">graphQLOL</h1>
