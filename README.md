@@ -149,7 +149,7 @@
 <a name="view"></a>
 ## Project Overview 
 
-`graphQLOL` is a library that enables sending GraphQL requests and processing the responses in C++. 
+`graphQLOL` is a library that enables sending GraphQL requests and processing the responses in `C++`. 
 
 
 This project involves implementing the `GraphQL` protocol &mdash; including query construction, request execution, and response handling. 
