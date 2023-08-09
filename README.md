@@ -173,6 +173,16 @@ Clearly document your design choices, system architecture, and important impleme
 Discuss the challenges faced, the strategies employed to overcome them, and the reasoning behind your design decisions. 
 Showcase your ability to analyze and debug issues effectively.
 
+
+1. **GraphQL Integration:** Develop a sophisticated C++ library capable of simplifying GraphQL integration, offering users a seamless way to construct queries, send requests, receive responses, and manage data from the Investopedia trading game API. The library should abstract the complexities of the GraphQL protocol, making it easy for developers to work with the API.
+> The primary goal is to create a highly capable C++ library that streamlines GraphQL integration. This entails crafting a comprehensive suite of features, such as constructing complex queries, orchestrating requests, handling intricate responses, and simplifying data management. The library will abstract the intricate details of the GraphQL protocol, enabling developers to harness the potential of the Investopedia trading game API without grappling with its complexity.
+
+2. **Comprehensive Documentation:** Provide in-depth documentation that outlines design choices, system architecture, implementation details, and best practices. Walk users through the process of using the library effectively, and showcase your problem-solving skills through debugging strategies and issue analysis.
+> This project will be meticulously documented to elucidate design rationale, architectural choices, and implementation intricacies. The documentation will serve as an educational resource, detailing strategies employed to tackle challenges and debug issues effectively. Through this, you'll not only showcase the project's technical accomplishments but also demonstrate your analytical problem-solving skills.
+
+3. **Learning and Skill Enhancement:** Throughout the project, you will deepen your understanding of API interaction, network communication, C++ programming, and GraphQL concepts. By addressing challenges and employing advanced techniques, you will showcase your expertise in software development.
+> Over the course of this project, you will gain profound insights into API interaction, network communication, software architecture, and C++ programming. By addressing challenges, optimizing code, and incorporating advanced techniques, you will display your expertise in software development and system design.
+
 &nbsp;
 
 ---------------------
@@ -197,37 +207,85 @@ Showcase your ability to analyze and debug issues effectively.
 <a name="stackz"></a>
 ### Currently Used Tech Stack(s): 
 
+__1. <ins>Backend</ins>: (Data Processing and Business Logic)__
+`C++` as the core programming language for library development.
+- Utilize object-oriented programming principles for modular and extensible code.
+- Incorporate `C++ Standard Library` features for foundational functionalities.
 
-__1. <ins>Front-end</ins>: (*User Interface*)__ 
+__2. <ins>APIs, Frameworks, and Libraries</ins>:__
 
-__2. <ins>Backend</ins>: (Data Processing and Business Logic)__
+1. libcurl: A versatile library for HTTP communication, vital for sending requests to the Investopedia trading game API.
+2. RapidJSON: A fast JSON parser and generator for C++, pivotal for parsing API responses.
+3. Boost: Utilize Boost libraries for various utilities and enhancements.
+4. Catch2: A C++ unit testing framework for robust testing.
+   
+__3. <ins>Web APIs and HTTP Communication</ins>:__
 
-__3. <ins>Database</ins>: (Data Storage)__
+- Utilize libcurl to establish communication with the Investopedia API endpoints.
+- Craft HTTP GET/POST requests with appropriate headers and parameters to interact with the API.
+- Leverage libcurl's features for efficient data transmission and response handling.
 
-__4. <ins>APIs, Frameworks, and Libraries</ins>:__
-
-__5. <ins>Web APIs and HTTP Communication</ins>:__
-
-__6. <ins>User Interface Design and Styling</ins>:__
-
-**7. <ins>Error Handling and Logging</ins>:**
-
+**4. <ins>Error Handling and Logging</ins>:**
+- Implement a comprehensive error-handling mechanism that covers various scenarios.
+- Utilize exception handling in C++ to gracefully manage errors and provide informative error messages.
+- Incorporate logging mechanisms to track crucial interactions, debugging information, and error occurrences.
       
-**8. <ins>Testing, Mocking, and Quality Assurance</ins>:**
+**5. <ins>Testing, Mocking, and Quality Assurance</ins>:**
+- Employ the Catch2 testing framework for unit testing and regression testing.
+- Design unit tests to validate individual functions and components of the library.
+- Consider implementing mocks or fakes for API responses during testing to simulate various scenarios.
 
-
-__9. <ins>Logging and Documentation</ins>:__
-
-
-      
-__10. <ins>Desktop Application Development</ins> (*Cross-platform*):__
-
+__6. <ins>Logging and Documentation</ins>:__
+- Integrate a logging library (such as Boost.Log) to record library interactions, requests, and responses.
+- Document code comprehensively using inline comments to explain complex functions and processes.
+- Create an extensive documentation guide, covering library installation, usage, troubleshooting, and contributing guidelines.
+- Provide sample code snippets and practical examples to guide developers through different aspects of the library.
 
 
 ---------------------
 
 <a name="map"></a>
 ## Roadmap
+
+
+**Week 1-2: Research and In-Depth Planning**
+
+- Immerse yourself in GraphQL principles, dissecting query structure and response formats.
+- Gain a deep understanding of the Investopedia trading game API, exploring available endpoints and data structures.
+- Define project scope, objectives, and success criteria.
+- Craft a meticulous roadmap, delineating architectural considerations and design strategies.
+
+**Week 3-4: Architectural Blueprint**
+
+- Architect a modular and scalable library design, encompassing modules for query construction, request dispatch, response processing, and error handling.
+- Define the class hierarchy and data models, aligning them with GraphQL paradigms.
+- Select appropriate third-party libraries for HTTP communication and GraphQL parsing.
+
+**Week 5-6: Core Functionality Implementation**
+
+- Develop core mechanisms for sending GraphQL requests to the Investopedia API, emphasizing robustness and efficiency.
+- Concentrate on programmatically generating complex and valid GraphQL queries.
+- Establish an elegant error-handling framework to gracefully manage unforeseen scenarios.
+
+**Week 7-8: Response Handling and User Interaction**
+
+- Implement comprehensive mechanisms for parsing and processing diverse responses from the API.
+- Construct an intuitive and user-centric interface that abstracts the intricacies of GraphQL operations.
+- Enable developers to tailor queries to specific needs and seamlessly manage authentication tokens.
+
+**Week 9-10: Comprehensive Documentation and Debugging Strategies**
+
+- Produce thorough documentation covering both technical intricacies and practical usage of the library.
+- Address common pitfalls, provide troubleshooting techniques, and offer practical debugging strategies.
+- Augment the documentation with annotated code examples, illustrative diagrams, and real-world scenarios.
+
+**Week 11-12: Rigorous Testing, Refinement, and Packaging**
+
+- Subject the library to rigorous testing across various usage scenarios, ensuring robustness and performance.
+- Incorporate feedback from testing phases to enhance code quality and optimize performance.
+- Package the library for distribution, accompanied by well-structured installation instructions and usage guidelines.
+
+
 
 &nbsp;
 
@@ -267,6 +325,25 @@ __10. <ins>Desktop Application Development</ins> (*Cross-platform*):__
 > - Provide code examples and document the library's API.
 > - Consider writing technical documentation or blog posts to showcase your library and explain its benefits and usage.
 
+
+
+1. **Getting Started:** Configure your development environment, encompassing the chosen IDE and requisite libraries.
+
+2. **Library Blueprint:** Design classes and functions aligned with GraphQL principles and efficient API integration.
+
+3. **HTTP Communication:** Employ libraries such as libcurl to establish robust communication channels with the Investopedia API.
+
+4. **Query Construction:** Create flexible and expressive functions, empowering users to craft intricate GraphQL queries with ease.
+
+5. **Response Processing:** Design adaptable parsing mechanisms to extract pertinent data from the API's complex responses.
+
+6. **Error Management:** Engineer an elegant error-handling mechanism, offering meaningful feedback to developers.
+
+7. **User-Friendly Interface:** Develop an ergonomic interface that empowers users to interact with the library sans GraphQL intricacies.
+
+8. **Debugging Strategies:** Elaborate on potential challenges, providing systematic debugging strategies in your documentation.
+
+
 &nbsp;
 
 <p align="right">(<a href="#graph">back to top</a>)</p>
@@ -278,27 +355,18 @@ __10. <ins>Desktop Application Development</ins> (*Cross-platform*):__
 <a name="i"></a>
 ### Input: 
 
+GraphQL queries, API endpoint, authentication tokens.
 
 <a name="o"></a>
 ### Output: 
 
+Processed API responses, distilled data, informative error messages.
 
 <a name="err"></a>
 #### __<ins>*Error Handling*</ins>:__
 
 &nbsp;
 
----------------------
-
-<a name="uiux"></a>
-## UI/UX
-
-
-
-### <ins>UI/UX Implementation Details</ins>:
-
-
-<p align="right">(<a href="#graph">back to top</a>)</p>
 
 ---------------------
 
@@ -320,7 +388,12 @@ __10. <ins>Desktop Application Development</ins> (*Cross-platform*):__
 5. Explore existing GraphQL libraries in C++ for inspiration. 
 6. Design and implement a library that abstracts away the complexities of working with GraphQL.
 
+
+1. Integrate the "graphQLOL" library into your C++ project.
    
+2. Leverage the library's functions to construct GraphQL queries, dispatch requests, and proficiently handle responses.
+
+
 &nbsp; 
 <p align="right">(<a href="#graph">back to top</a>)</p>
 
@@ -341,7 +414,7 @@ __10. <ins>Desktop Application Development</ins> (*Cross-platform*):__
 <a name="prereq"></a>
 ### System Prerequisites:
 
-Before using `ytconv3rt3r`, users should be aware of the following system requirements and permissions for both the web and desktop versions:
+The library mandates a functional C++ compiler, pertinent libraries for HTTP communication, and consistent internet connectivity for API interaction.
 
 <a name="preweb"></a>
 #### **Web App:**
@@ -407,6 +480,13 @@ Before using `ytconv3rt3r`, users should be aware of the following system requir
 <a name="use-case"></a>
 ### Potential Use Cases: 
 
+
+- Algorithmic trading strategy formulation, backtesting, and refinement.
+- Real-time market data monitoring and informed decision-making.
+- Portfolio analysis and optimization for traders and investors.
+
+
+
 &nbsp;
 
 <p align="right">(<a href="#graph">back to top</a>)</p>
@@ -449,6 +529,8 @@ Approximately 40-60 hours
 
 We welcome contributions from the community to help improve `graphQLOL` and make it even better.
 
+- Contribute: Encourage developers to actively participate by submitting pull requests, identifying bugs, and suggesting enhancements via GitHub.
+- Donate: Highlight how donations will bolster continuous development, long-term maintenance, and the potential expansion of the library's scope.
 
 
 <p align="right">(<a href="#graph">back to top</a>)</p>
@@ -456,6 +538,8 @@ We welcome contributions from the community to help improve `graphQLOL` and make
 ---------------------
 <a name="bye"></a>
 ## Conclusion
+
+`graphQLOL` embodies a robust C++ library, proficiently encapsulating the intricacies of GraphQL integration and enabling seamless communication with the Investopedia trading game API. Through meticulous documentation, strategic design choices, and the potential for AI integration, the project underscores your mastery of software development while making a substantial contribution to the dynamic domain of algorithmic trading and financial analysis.
 
 Thank you for choosing `graphQLOL`, and let's embark on this journey of audio conversion excellence together.
 
