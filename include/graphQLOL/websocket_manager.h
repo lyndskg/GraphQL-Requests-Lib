@@ -1,0 +1,8 @@
+//
+// Created by lyndskg on 8/9/23.
+//
+
+#ifndef GRAPHQLOL_WEBSOCKET_MANAGER_H
+#define GRAPHQLOL_WEBSOCKET_MANAGER_H
+
+#endif //GRAPHQLOL_WEBSOCKET_MANAGER_H

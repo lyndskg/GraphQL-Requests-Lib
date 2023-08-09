@@ -1,0 +1,41 @@
+graphQLOL/
+├── docs/
+│   ├── hierarchy.gql	   # Project hierarchy guide
+│   ├── BuildNotes.txt	   # Build notes
+│   ├── index.md           # Project documentation index
+│   ├── installation.md    # Installation guide
+│   ├── usage.md           # Library usage guide
+│   ├── troubleshooting.md # Troubleshooting guide
+│   ├── contribution.md    # Contribution guidelines
+│   └── api_reference.md   # API reference documentation
+├── include/
+│   ├── graphQLOL/
+│   │   ├── graphQLOL.h    # Main library header
+│   │   ├── query_builder.h # Query construction module header
+│   │   ├── request_manager.h # Request management module header
+│   │   ├── response_parser.h # Response parsing module header
+│   │   ├── error_handler.h  # Error handling module header
+│   │   └── websocket_manager.h # WebSocket communication module header
+│   └── third_party/
+│       ├── libcurl/         # libcurl headers
+│       ├── websocketpp/     # WebSocket++ headers
+│       └── rapidjson/       # RapidJSON headers
+├── src/
+│   ├── query_builder.cpp   # Query construction module implementation
+│   ├── request_manager.cpp # Request management module implementation
+│   ├── response_parser.cpp # Response parsing module implementation
+│   ├── error_handler.cpp  # Error handling module implementation
+│   ├── websocket_manager.cpp # WebSocket communication module implementation
+│   └── CMakeLists.txt       # CMake configuration for src
+├── tests/
+│   ├── test_main.cpp       # Catch2 test main file
+│   ├── test_query_builder.cpp # Unit tests for query_builder
+│   ├── test_request_manager.cpp # Unit tests for request_manager
+│   ├── test_response_parser.cpp # Unit tests for response_parser
+│   ├── test_error_handler.cpp  # Unit tests for error_handler
+│   ├── test_websocket_manager.cpp # Unit tests for websocket_manager
+│   └── CMakeLists.txt       # CMake configuration for tests
+├── .gitignore
+├── main.cpp 		# main driver file
+├── CMakeLists.txt          # Top-level CMake configuration
+└── README.md               # Project README file
