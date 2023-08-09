@@ -1,11 +1,7 @@
 # GraphQL-Requests-Lib
 
 Time Estimate: Approximately 40-60 hours
-Description: Design and implement a library that can send GraphQL queries, handle responses, and provide an easy-to-use interface for integrating GraphQL into your applications. 
-Develop a library that enables sending GraphQL requests and processing the responses in C++. This project involves implementing the GraphQL protocol, including query construction, request execution, and response handling. It requires knowledge of GraphQL concepts and the ability to interface with HTTP or WebSocket protocols.
-Clearly document your design choices, system architecture, and important implementation details. 
-Discuss the challenges faced, the strategies employed to overcome them, and the reasoning behind your design decisions. 
-Showcase your ability to analyze and debug issues effectively.
+
 Getting Started: Familiarize yourself with the GraphQL specification and the basics of making GraphQL requests. 
 Understand the GraphQL protocol, including schema definition, query language, and response format.
 Study existing GraphQL libraries and clients to gain insights into their design and implementation.
@@ -77,22 +73,7 @@ Consider writing technical documentation or blog posts to showcase your library 
       </li>
       <li><a href="#tech">Technologies and Programming Languages</a></li>
       <li><a href="#stackz">Currently Used Tech Stacks</a></li>
-        <ul>
-          <li>
-            <a href="#desk">Desktop Application</a>
-            <ul> 
-              <li><a href="dstack">Tech Stack</a></li>
-              <li><a href="dIDE">Recommended IDEs</a></li>
-            </ul>
-            <li><a href="#web">Web Application</a></li>
-            <ul>
-              <li><a href="wstack">Tech Stack</a></li>
-              <li><a href="wIDE">Recommended IDEs</a></li>
-            </ul>
-            <li><a href="devenv">Development Environment</a></li>
-          </li> 
-        </ul>
-      </li>
+      <li><a href="devenv">Development Environment</a></li>
       <li>
         <a href="#map">Roadmap</a>
         <ul>
@@ -134,26 +115,13 @@ Consider writing technical documentation or blog posts to showcase your library 
           <li>
             <a href="#prereq">Prerequisites</a>
             <ul>
-              <li><a href="#preweb">Web App</a></li>
-              <li><a href="#predesk">Desktop App</a></li>
               <li><a href="#prefile">File System Permissions (<em>Desktop Only</em>)</a></li>
               <li><a href="#preaiml">AI/ML Permissions</a></li>
               <li><a href="#leg">Legal & Copyright Compliance</a></li>
               <li><a href="#priv">Privacy & Data Security</a></li>
             </ul>
           </li>
-          <li>
-            <a href="guide">User Installation Guide</a>
-            <ul>
-              <li><a href="#webinst">Web App Installation</a></li>
-              <li><a href="#instmac">macOS App Installation</a></li>
-              <ul>
-                <li><a href="#climac">macOS via CLI</a></li>
-                <li><a href="#gitmac">macOS via Git</a></li>
-              </ul>
-              <li><a href="#instwindows">Windows App Installation</a></li>
-            </ul>
-          </li>
+          <li><a href="guide">User Installation Guide</a></li>
         </ul>
       </li>
       <li>
@@ -225,19 +193,16 @@ Consider writing technical documentation or blog posts to showcase your library 
 <a name="view"></a>
 ## Project Overview 
 
-`ytconv3rt3r` is a versatile and user-friendly application that allows users to convert and download YouTube audio tracks into various audio file formats &mdash; including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3). 
+`graphQLOL` is a library that enables sending GraphQL requests and processing the responses in C++. 
 
-Users will have the option to edit metadata for each audio track &mdash; including artist, title, genre, and other relevant details (which is especially crucial for users who use mixing/DJing software like `RekordBox` or `Serato`). 
+
+This project involves implementing the `GraphQL` protocol &mdash; including query construction, request execution, and response handling. 
+
+
+It requires knowledge of `GraphQL` concepts and the ability to interface with `HTTP` or `WebSocket` protocols.
+
 
 &nbsp;
-> - To enhance the user experience, an AI/ML-enhanced version of the project will be developed, which will automatically source and generate the correct metadata for each YouTube link.
->   
-> - Additionally, users can edit metadata for each audio track, with the option of AI/ML assistance for automatic metadata retrieval or generation. 
-
-&nbsp;
-
-The project aims to cater to both web and desktop users, supporting both macOS and Windows operating systems.
-
 
 
 ---------------------
@@ -245,26 +210,11 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 <a name="obj"></a>
 ### <ins>Objectives</ins>:
 
-1. __<ins>Seamless Audio Conversion Experience</ins>:__
-> - The primary objective of the `ytconv3rt3r` project is to provide users with a seamless and hassle-free experience when converting YouTube audio tracks into various audio formats.
-> - The application should be easy to use, with a straightforward process for inputting YouTube video links and selecting desired audio formats.
-> - Users should be able to initiate the conversion process with minimal effort and receive high-quality audio output promptly.
-2. **<ins>Metadata Editing with or without AI/ML Assistance</ins>:**
-> - Another key objective is to enable users to edit metadata associated with the converted audio tracks.
->> - Metadata includes information such as track title, artist name, album name, genre, and cover art.
-> - Users should have the option to manually edit this metadata to ensure accurate and personalized information.
-> - Additionally, the project aims to explore the integration of AI/ML technologies to assist users in automatically retrieving or generating metadata for the audio tracks, saving them time and effort.
-3. **<ins>AI/ML Model for Metadata Retrieval or Generation</ins>:**
-> - As part of the project's innovation, the development team aims to build and integrate an AI/ML model that can analyze audio content and retrieve or generate relevant metadata automatically.
->> - This AI/ML model would use techniques such as audio fingerprinting, natural language processing, and machine learning algorithms to identify key metadata details from the audio content itself or external sources.
-> - By providing AI/ML assistance, the application can streamline the metadata editing process and enhance the overall user experience.
-4. **<ins>Support for Web and Desktop Applications</ins>:**
-> - The `ytconv3rt3r` project aims to be versatile and accessible to a wide range of users.
->> - To achieve this, the team plans to develop two versions of the application: a web-based version that users can access through their internet browsers, and a desktop application for macOS and Windows operating systems.
->> - This approach allows users to choose the platform that best suits their preferences and requirements.
-5. **<ins>Cross-Platform Compatibility</ins>:**
-> - In addition to supporting both web and desktop applications, cross-platform compatibility is a crucial objective of the project.
-> - The team will ensure that the application functions smoothly on various operating systems and web browsers, allowing users to access and use it regardless of their chosen platform.
+Design and implement a library that can send GraphQL queries, handle responses, and provide an easy-to-use interface for integrating GraphQL into your applications. 
+
+Clearly document your design choices, system architecture, and important implementation details. 
+Discuss the challenges faced, the strategies employed to overcome them, and the reasoning behind your design decisions. 
+Showcase your ability to analyze and debug issues effectively.
 
 &nbsp;
 
