@@ -149,8 +149,9 @@
 <a name="view"></a>
 ## Project Overview 
 
-`graphQLOL` is a library that enables sending GraphQL requests and processing the responses in `C++`. 
+`graphQLOL` is a robust, versatile, and comprehensive `C++` library that enables sending GraphQL requests and processing the responses.
 
+It seamlessly integrates `GraphQL` capabilities into applications &mdash; with a specific focus on communication with the Investopedia trading game API. The project aims to enhance one's understanding of API integration, network communication, software architecture, and `GraphQL` concepts &mdash; all the while creating a valuable tool for algorithmic trading strategy development and financial analysis.
 
 This project involves implementing the `GraphQL` protocol &mdash; including query construction, request execution, and response handling. 
 
